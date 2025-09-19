@@ -1,0 +1,80 @@
+# First Step to Developing a Repository
+
+```bash
+git init
+```
+
+```bash
+git remote add origin <repo HTTPS or SSH>
+```
+
+```bash
+git pull origin <repo branch>
+```
+
+# Push to remote
+
+```bash
+git add .
+```
+
+```bash
+git commit
+```
+
+```bash
+git push -u origin <branch>
+```
+
+# Rename a branch
+
+```bash
+git branch -m <branch A> <branch B>
+```
+
+```bash
+git push -u origin <branch B>
+git push origin --delete <branch A>
+```
+
+References
+- [How to rename the "master" branch to "main" in Git | Learn Version Control with Git](https://www.git-tower.com/learn/git/faq/git-rename-master-to-main)
+
+# Cancel the latest commit
+
+```bash
+git reset HEAD^
+```
+
+References
+- [菜鳥工程師 肉豬: Git 取消未push的commit](https://matthung0807.blogspot.com/2021/07/git-cancel-last-unpushed-local-commit.html)
+
+# Common
+
+```bash
+git log
+```
+
+```bash
+git log --oneline
+```
+
+```bash
+git log --graph --oneline --decorate
+```
+
+---
+
+```bash
+git status
+```
+
+---
+
+```bash
+git branch
+```
+
+```bash
+git checkout <branch>
+```
