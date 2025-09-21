@@ -1,5 +1,7 @@
 # [【git】如何寫好的commit訊息 - YouTube](https://www.youtube.com/watch?v=g9-X6fR2eYA)
 
+[[2023-02-20]] 09:58
+
 - 0209
 	- 7 原則
 - 0215

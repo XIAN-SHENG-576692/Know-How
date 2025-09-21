@@ -1,5 +1,7 @@
 # [13 Advanced (but useful) Git Techniques and Shortcuts - YouTube](https://www.youtube.com/watch?v=ecK3EnyGD8o)
 
+[[2022-04-10]] 12:13
+
 01:06
 
 ```bash
