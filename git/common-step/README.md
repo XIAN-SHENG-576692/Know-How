@@ -5,11 +5,11 @@ git init
 ```
 
 ```bash
-git remote add origin <repo HTTPS or SSH>
+git remote add origin <REPO>
 ```
 
 ```bash
-git pull origin <repo branch>
+git pull origin <BRANCH>
 ```
 
 # Push to remote
@@ -23,18 +23,18 @@ git commit
 ```
 
 ```bash
-git push -u origin <branch>
+git push -u origin <BRANCH>
 ```
 
 # Rename a branch
 
 ```bash
-git branch -m <branch A> <branch B>
+git branch -m <BRANCH_A> <BRANCH_B>
 ```
 
 ```bash
-git push -u origin <branch B>
-git push origin --delete <branch A>
+git push -u origin <BRANCH_B>
+git push origin --delete <BRANCH_A>
 ```
 
 References
