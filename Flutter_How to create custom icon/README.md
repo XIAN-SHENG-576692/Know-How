@@ -67,3 +67,6 @@ Solution:
 ## Others
 
 [material-design-icons/png/device at master · google/material-design-icons · GitHub](https://github.com/google/material-design-icons/tree/master/png/device)
+
+[System icons - Material Design](https://m2.material.io/design/iconography/system-icons.html#system-icon-metrics)
+
