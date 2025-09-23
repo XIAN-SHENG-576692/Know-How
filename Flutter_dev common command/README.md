@@ -28,6 +28,16 @@ cd android/
 
 [[2025-09-03]] 16:32
 
+Repair pub cache (usually not needed)
+```bash
+flutter pub cache repair
+```
+
+Delete the cache directly (it will take a while)
+```bash
+rm -rf ~/.pub-cache
+```
+
 ```bash
 flutter clean
 ```
