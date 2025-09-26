@@ -46,3 +46,12 @@ flutter clean
 flutter pub get
 ```
 
+---
+
+[[2025-09-26]] 12:00
+- NDK 配置錯誤解決.mhtml
+- [java - Keystore file does not exist - Stack Overflow](https://stackoverflow.com/questions/42663114/keystore-file-does-not-exist)
+
+```bash
+keytool -list -v -keystore <KEYSTORE_PATH>
+```
