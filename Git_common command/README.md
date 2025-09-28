@@ -9,7 +9,7 @@ git remote add origin <REPO>
 ```
 
 ```bash
-git pull origin <BRANCH>
+git pull origin <BRANCH> --tags
 ```
 
 # Push to remote
@@ -77,4 +77,14 @@ git branch
 
 ```bash
 git checkout <branch>
+```
+
+---
+
+```bash
+git tag -l
+```
+
+```bash
+git tag -a <NEW_TAG>
 ```
