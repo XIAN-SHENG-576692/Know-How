@@ -175,3 +175,11 @@ rm -rf ~/.cache/Code/User/globalStorage/<CONTAINERS>/*
 systemctl --user enable --now podman.socket
 systemctl --user status podman.socket
 ```
+
+---
+
+[[2025-09-27]] 13:56
+
+[Dev Container metadata reference](https://containers.dev/implementors/json_reference/)
+
+

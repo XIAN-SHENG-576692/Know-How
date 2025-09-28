@@ -1,6 +1,10 @@
 # Flutter: Development common command
 
+---
+
 [[2025-09-03]] 11:31
+
+Rescan real devices
 
 ```bash
 adb kill-server
@@ -11,7 +15,7 @@ adb start-server
 ```
 
 ```bash
-adb devices
+adb devices -l
 ```
 
 ---
@@ -55,3 +59,15 @@ flutter pub get
 ```bash
 keytool -list -v -keystore <KEYSTORE_PATH>
 ```
+
+---
+
+[[2025-09-27]] 23:00
+- NDK版本衝突解決.mhtml
+- [Should the default ndkVersion be updated to support 16KB Page Size Requirement? · Issue #175022 · flutter/flutter](https://github.com/flutter/flutter/issues/175022?utm_source=chatgpt.com)
+- [flutter/packages/flutter\_tools/gradle/src/main/kotlin/FlutterExtension.kt at 3.36.0-0.5.pre · flutter/flutter · GitHub](https://github.com/flutter/flutter/blob/3.36.0-0.5.pre/packages/flutter_tools/gradle/src/main/kotlin/FlutterExtension.kt)
+
+```
+"$FLUTTER_HOME/packages/flutter_tools/gradle/src/main/kotlin/FlutterExtension.kt"
+```
+
