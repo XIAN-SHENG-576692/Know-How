@@ -1,3 +1,17 @@
+[[2025-08-28]]
+
+### How to Check UID in Linux
+
+| Method            | Command                                    | Description                        |
+| ----------------- | ------------------------------------------ | ---------------------------------- |
+| Direct            | `id -u`                                    | Show current user’s UID            |
+| Specific user     | `id -u username`                           | Show UID of given account          |
+| Full info         | `id`                                       | Show UID, GID, and groups          |
+| From /etc/passwd  | `grep 'username' /etc/passwd`              | Check user info directly           |
+| Extract field     | `grep 'username' /etc/passwd \| cut -d: -f3` | Only extract UID field             |
+
+---
+
 [[2025-09-16]]
 
 [linux - Check free disk space for current partition in Bash - Stack Overflow](https://stackoverflow.com/questions/8110530/check-free-disk-space-for-current-partition-in-bash)
