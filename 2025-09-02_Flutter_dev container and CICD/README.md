@@ -11,6 +11,7 @@
 [[2025-09-24]]
 
 [github action搭建flutter流水线 | Distant Vicinity](https://kzs.moe/blog/015-flutter-github-workflow)
+- [GitHub - realth000/tsdm\_client: 天使动漫论坛官方跨平台客户端](https://github.com/realth000/tsdm_client)
 
 ---
 
