@@ -1,3 +1,5 @@
+# Flutter
+
 [[2025-09-25]]
 
 [[2025-09-28]]
@@ -40,3 +42,30 @@
 [hub.docker.com/r/mingc/android-build-box/dockerfile](https://hub.docker.com/r/mingc/android-build-box/dockerfile)
 
 [GitHub - mingchen/docker-android-build-box: An optimized docker image includes Android, Kotlin, Flutter sdk.](https://github.com/mingchen/docker-android-build-box)
+
+# Melos
+
+[[2025-09-29]]
+
+```bash
+#!/bin/bash
+# install_melos.sh
+# Install Melos, then create a profile script under /etc/profile.d/ to add "$HOME/.pub-cache/bin" to your PATH.
+
+set -e
+
+# Install melos
+dart pub global activate melos
+
+# Create a profile script under /etc/profile.d/ to add "$HOME/.pub-cache/bin" to your PATH.
+echo 'PATH="$PATH":"$HOME/.pub-cache/bin"' | sudo tee /etc/profile.d/add_pub_cache_bin_to_path.sh
+sudo chmod +x /etc/profile.d/add_pub_cache_bin_to_path.sh
+```
+
+---
+
+[[2025-09-29]] 17:24
+
+[melos/.gitignore at main · invertase/melos · GitHub](https://github.com/invertase/melos/blob/main/.gitignore)
+
+[GitHub - bluefireteam/melos-action: An environment with Melos activated for use in GitHub Actions.](https://github.com/bluefireteam/melos-action)
