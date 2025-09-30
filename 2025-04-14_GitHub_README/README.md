@@ -1,3 +1,11 @@
+# Decoration
+
+[[2025-04-29]] 22:50
+
+[Shields.io | Shields.io](https://shields.io/)
+
+# Translation
+
 [[2025-04-14]] 16:40
 [art-of-readme/README-zh-TW.md at master · hackergrrl/art-of-readme · GitHub](https://github.com/hackergrrl/art-of-readme/blob/master/README-zh-TW.md)
 
