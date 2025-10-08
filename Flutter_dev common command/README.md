@@ -71,3 +71,16 @@ keytool -list -v -keystore <KEYSTORE_PATH>
 "$FLUTTER_HOME/packages/flutter_tools/gradle/src/main/kotlin/FlutterExtension.kt"
 ```
 
+---
+
+```bash
+dart run build_runner build
+```
+
+```bash
+dart run build_runner build --delete-conflicting-outputs
+```
+
+```bash
+dart run build_runner clean
+```
