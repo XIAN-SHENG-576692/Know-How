@@ -74,6 +74,12 @@ keytool -list -v -keystore <KEYSTORE_PATH>
 ---
 
 ```bash
+flutter gen-l10n
+```
+
+---
+
+```bash
 dart run build_runner build
 ```
 
