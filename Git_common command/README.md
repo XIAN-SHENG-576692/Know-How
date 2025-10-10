@@ -63,6 +63,15 @@ git log --oneline
 git log --graph --oneline --decorate
 ```
 
+```bash
+git log --graph --oneline --decorate --all
+```
+References
+- [[2025-10-10]] 15:25
+- GitHub branch 視覺化.mhtml
+- [How To Visualizing Branch Topology in Git? - GeeksforGeeks](https://www.geeksforgeeks.org/git/how-to-visualizing-branch-topology-in-git/?utm_source=chatgpt.com)
+
+
 ---
 
 ```bash
