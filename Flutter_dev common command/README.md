@@ -90,3 +90,13 @@ dart run build_runner build --delete-conflicting-outputs
 ```bash
 dart run build_runner clean
 ```
+
+---
+
+```bash
+dart format <PATH>
+```
+- [[2025-10-12]] 16:11
+- [Effective Dart: Style](https://dart.dev/effective-dart/style?utm_source=chatgpt.com)
+- [dart format](https://dart.dev/tools/dart-format)
+
