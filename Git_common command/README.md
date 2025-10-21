@@ -97,3 +97,48 @@ git tag -l
 ```bash
 git tag -a <NEW_TAG>
 ```
+
+---
+
+[Git 進階應用 Submodule 與 Subtree，使用它們來拆分專案 | Puck's Blog](https://blog.puckwang.com/posts/2020/git-submodule-vs-subtree/)
+
+[[2025-10-21]] 11:58
+
+```bash
+git submodule add <repo url> <folder>
+```
+
+```bash
+git submodule update --recursive
+```
+
+```bash
+git submodule deinit -f <submodule folder>
+rm -rf .git/modules/path/to/submodule
+git rm -f path/to/submodule
+```
+
+```bash
+git clone <repo url> --recurse-submodules
+```
+
+```bash
+git submodule init
+git submodule update
+
+# or
+
+git submodule update --init
+```
+
+```bash
+git clone <Super Repo>
+git remote rm origin
+git filter-branch --subdirectory-filter <SubModule folder path> -- --all
+git remote add origin <SubModule Repo>
+git push
+git rm -r <folder>
+git submodule add <git repository B url> <folder>
+git commit
+git push
+```
