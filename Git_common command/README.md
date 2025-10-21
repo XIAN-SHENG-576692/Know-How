@@ -109,7 +109,7 @@ git submodule add <repo url> <folder>
 ```
 
 ```bash
-git submodule update --recursive
+git submodule update --init --recursive
 ```
 
 ```bash
