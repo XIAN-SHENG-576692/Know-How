@@ -29,3 +29,32 @@ df -h --total
 [Linux man pages](https://linux.die.net/man/)
 
 [善用 man 指令查詢 Linux 線上手冊（Man Page） – G. T. Wang](https://blog.gtwang.org/linux/linux-man-page-command-examples/)
+
+---
+
+[[2025-10-27]] 01:31
+- Fedora kill PID方法.mhtml
+
+```bash
+kill <PID>
+```
+
+```bash
+kill -9 <PID>
+```
+
+```bash
+pkill <Process_Name>
+```
+
+```bash
+pkill -9 <Process_Name>
+```
+
+```bash
+ps aux | grep <Process_Name>
+```
+
+```bash
+pgrep <Process_Name>
+```
