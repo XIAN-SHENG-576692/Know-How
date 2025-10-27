@@ -58,3 +58,9 @@ ps aux | grep <Process_Name>
 ```bash
 pgrep <Process_Name>
 ```
+
+---
+
+[[2025-10-27]] 11:21
+mtp://<DEVICE_NAME>/Internal%20storage/Android/data/com.splendapps.voicerec/files/Recordings
+
