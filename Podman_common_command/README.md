@@ -182,4 +182,16 @@ systemctl --user status podman.socket
 
 [Dev Container metadata reference](https://containers.dev/implementors/json_reference/)
 
+## Podman fully clear
 
+#2026-02-20 11:25
+
+```shell
+podman rm --all --force
+podman container prune --force
+podman pod rm --all --force
+podman volume rm --all --force
+podman network prune --force
+podman system prune --all --force --volumes
+podman system reset --force
+```
